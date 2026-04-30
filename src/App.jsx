@@ -12,7 +12,7 @@ const staggerContainer = {
   visible: { opacity: 1, transition: { staggerChildren: 0.2 } }
 };
 
-// --- BASE DE DATOS DE PROYECTOS (CON INFO E IMÁGENES REALES) ---
+// --- BASE DE DATOS DE PROYECTOS ---
 const misProyectos = [
   {
     id: 1,
@@ -83,7 +83,7 @@ function App() {
         <div className="max-w-7xl w-full flex flex-col md:flex-row items-center gap-16">
           <motion.div className="flex-1" initial="hidden" animate="visible" variants={fadeUp}>
             <h1 className="text-7xl md:text-[9rem] font-extrabold tracking-tighter mb-8 text-[#0f172a] leading-none">
-              Juan Camilo <br/><span className="text-[#4a6274]">Sinisterra </span>
+              Juan Camilo <br/><span className="text-[#4a6274]">Sinisterra S</span>
             </h1>
             <p className="text-2xl md:text-3xl text-[#0f172a]/80 mb-10 max-w-2xl leading-relaxed">
               Diseñador Industrial & Desarrollador. Impulsando marcas a través de diseño estratégico y soluciones tangibles.
@@ -155,8 +155,9 @@ function App() {
           </motion.div>
           
           <motion.div className="flex-1 relative w-full flex justify-center" initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
+            {/* EL VIDEO OFICIAL (Link directo de Cloudinary) */}
             <video 
-              src="https://res.cloudinary.com/demo/video/upload/v1647265147/docs/abstract_video.mp4" 
+              src="https://res.cloudinary.com/dt0jylgrv/video/upload/WhatsApp_Video_2026-04-30_at_6.34.43_PM_wrkyg3.mp4" 
               autoPlay 
               loop 
               muted 
