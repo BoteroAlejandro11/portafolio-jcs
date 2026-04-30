@@ -83,7 +83,7 @@ function App() {
         <div className="max-w-7xl w-full flex flex-col md:flex-row items-center gap-16">
           <motion.div className="flex-1" initial="hidden" animate="visible" variants={fadeUp}>
             <h1 className="text-7xl md:text-[9rem] font-extrabold tracking-tighter mb-8 text-[#0f172a] leading-none">
-              Juan Camilo <br/><span className="text-[#4a6274]">Sinisterra S</span>
+              Juan Camilo <br/><span className="text-[#4a6274]">Sinisterra </span>
             </h1>
             <p className="text-2xl md:text-3xl text-[#0f172a]/80 mb-10 max-w-2xl leading-relaxed">
               Diseñador Industrial & Desarrollador. Impulsando marcas a través de diseño estratégico y soluciones tangibles.
