@@ -155,12 +155,10 @@ function App() {
           </motion.div>
           
           <motion.div className="flex-1 relative w-full flex justify-center" initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-            {/* EL VIDEO OFICIAL (Link directo de Cloudinary) */}
+            {/* VIDEO CON SONIDO Y CONTROLES (Sin autoplay) */}
             <video 
               src="https://res.cloudinary.com/dt0jylgrv/video/upload/WhatsApp_Video_2026-04-30_at_6.34.43_PM_wrkyg3.mp4" 
-              autoPlay 
-              loop 
-              muted 
+              controls
               playsInline
               className="rounded-3xl shadow-2xl border-4 border-[#d3d3c8] relative z-10 w-full max-w-lg aspect-[4/5] object-cover bg-gray-100"
             />
