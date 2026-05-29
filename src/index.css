@@ -5,3 +5,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  min-width: 320px;
+  background: #d3d3c8;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+::selection {
+  background: #4a6274;
+  color: white;
+}
